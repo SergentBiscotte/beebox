@@ -1,0 +1,11 @@
+Pour lires les données de températures et de'humitité pour les capteurs dans la reuche et à l'extérieur, il faut lancer les 2 script pythons 
+
+la command "crontab -e" permet  de lancer les scripts à intervalles régulier
+
+exemples:
+les scripts ruche.py et exterieur.py seront exécuter toutes les 15 minutes:
+> crontab -e
+
+puis on ajoute les 2 lignes suivantes (if user = pi) pour executer les scripts toutes les 15 minutes
+*/15 * * * * sudo pi /home/pi/beebox/ruche.py
+*/15 * * * * sudo pi /home/pi/beebox/exterieur.py
