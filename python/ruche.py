@@ -9,7 +9,7 @@ import Adafruit_DHT
 import time
 from datetime import datetime
 
-## Librairies pour envoie emails.
+## Librairies pour envoi emails.
 import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
