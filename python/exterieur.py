@@ -22,7 +22,7 @@ filename = "".join(["/home/pi/beebox/data/exterieur/exterieur-", daystamp, ".csv
 
 #### Definition paramètres email pour les alertes #############
 fromaddr = "beebox.eco@gmail.com"
-toaddr = "your-email@gmail.om"
+toaddr = "your-email@gmail.com"
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
